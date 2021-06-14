@@ -1,0 +1,139 @@
+{
+  "charaDatas": [
+    {
+      "model": "ch_0001_a",
+      "name": "ドール"
+    },
+    {
+      "model": "ch_0022_a",
+      "name": "ミーアキャット"
+    },
+    {
+      "model": "ch_20001_a",
+      "name": "セルリアン"
+    }
+  ],
+  "miraiDatas": [],
+  "rowDatas": [
+    {
+      "mSerifCharaName": "",
+      "mStrParams": [
+        "bg_jungle_promenade",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "",
+      "mStrParams": [
+        "こんにちわ",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "",
+      "mStrParams": [
+        "こんにちわ",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "ドール",
+      "mStrParams": [
+        "や、やった！　隊長さん、先生！\nセルリアン、たおせましたよー！",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "ミーアキャット",
+      "mStrParams": [
+        "ドール！\n気を抜いてはいけません！",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "",
+      "mStrParams": [
+        "こんにちわ",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "",
+      "mStrParams": [
+        "こんにちわ",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "",
+      "mStrParams": [
+        "こんにちわ",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "セルリアン",
+      "mStrParams": [
+        "<color=#990000>――――！</color>",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "",
+      "mStrParams": [
+        "こんにちわ",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "ドール",
+      "mStrParams": [
+        "わああああぁっ！\nまた出てきた！？",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "ミーアキャット",
+      "mStrParams": [
+        "油断しているときが、もっとも危険ですの！\nおぼえておくように！",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "ミーアキャット",
+      "mStrParams": [
+        "さあ、授業再開ですわ\nいきますわよ、ドール！　隊長さん！",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "ドール",
+      "mStrParams": [
+        "は、はい！！",
+        "none",
+        ""
+      ]
+    },
+    {
+      "mSerifCharaName": "",
+      "mStrParams": [
+        "こんにちわ",
+        "none",
+        ""
+      ]
+    }
+  ]
+}
