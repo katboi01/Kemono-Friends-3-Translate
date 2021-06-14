@@ -33,6 +33,7 @@ namespace KF3Translate
             am = new AssetsManager();
             am.LoadClassPackage(Path.Combine(Environment.CurrentDirectory, @"Data\classdata.tpk"));
 
+            //For each file in Data/Scenarios/ (translated files), look for the original file and...
             foreach (string file in Directory.GetFiles(LoadDirectoryPath))
             {
                 if(!File.Exists(Path.Combine(SaveDirectoryPath, Path.GetFileNameWithoutExtension(file)))) { continue; }
@@ -41,11 +42,11 @@ namespace KF3Translate
 
                 Scenario scenario = JsonConvert.DeserializeObject<Scenario>(File.ReadAllText(file));
 
-                //load file
+                //Load file
                 string selectedFile = Path.Combine(SaveDirectoryPath, Path.GetFileNameWithoutExtension(file));
                 BundleFileInstance bundleInst = am.LoadBundleFile(selectedFile, false);
 
-                //Decompress the file to memory (overwrites bundleInst)
+                //Decompress the file to memory
                 bundleInst.file = Utilities.DecompressToMemory(bundleInst);
 
                 AssetsFileInstance inst = am.LoadAssetsFileFromBundle(bundleInst, 0);
@@ -116,6 +117,7 @@ namespace KF3Translate
                 bundleInst.file.Close();
 
                 File.Delete(selectedFile + "_temp");
+                am.UnloadAll(); //delete this if something breaks
             }
         }
     }
